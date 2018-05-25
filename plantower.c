@@ -74,7 +74,7 @@ char *getSerialDeviceName(void)
 {
 	// Put this here in case the serial port name changes sometime
 	
-	return "/dev/ttyS0";
+	return "/dev/serial0";
 }
 
 

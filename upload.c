@@ -1,5 +1,5 @@
 /******************************************************************************
-* Copyright (C) 2018 By Mike Sharps
+*  
 *   upload.c
 */
 
@@ -135,7 +135,7 @@ int sendDataToWeb(struct PTMeasuredData *measData){
         //sprintf( url, "http://127.0.0.1:1880/habitat/");
 
         // send to the node red http endpoint url 
-        sprintf( url, "http://192.168.1.6:1880/habitat/");
+        sprintf( url, "http://192.168.1.104:1880/habitat/");
 
         // Set the headers
         headers = NULL;
